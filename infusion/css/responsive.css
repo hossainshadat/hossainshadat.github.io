@@ -1,0 +1,66 @@
+/*
+===========================================================================
+ EXCLUSIVE ON themeforest.net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Template Name   : Infusion - Responsive Personal Portfolio Template
+ Author          : bootWeb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
+===========================================================================
+
+NOTE: This is a responsive stylesheet of the template. This file contains the styling for various devices like mobile phone, tablet, laptop etc.
+*/
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+1. Layout greater than 768px
+2. Layout lesser than 768px
+3. Layout lesser than 350px
+
+====================================================
+            End table content 
+===================================================*/
+
+/*-------------------------------------------------------*/
+    /* Layout greater than 768px */
+/*-------------------------------------------------------*/
+@media(min-width:768px) {
+    .custom-navbar {
+        border-bottom: 0;
+    }
+    .custom-navbar.top-nav-collapse {
+        background: #ffffff;
+        box-shadow:0 40px 100px rgba(0,0,0,.4);
+        padding: 0px 0;
+    }
+    #home .text {
+      font-size: 60px;
+    }
+}
+
+/*-------------------------------------------------------*/
+    /* Layout lesser than 768px */
+/*-------------------------------------------------------*/
+@media (max-width:768px){
+    .navbar-collapse {
+        text-align:center;  
+    }
+    .custom-navbar .nav li a {
+        line-height:20px;
+        overflow:hidden;
+    }
+    #home .text {
+      font-size: 40px;
+    }
+}
+
+/*-------------------------------------------------------*/
+    /* Layout lesser than 350px */
+/*-------------------------------------------------------*/
+@media (max-width:350px){
+    #home .text {
+      font-size: 24px;
+    }
+}
