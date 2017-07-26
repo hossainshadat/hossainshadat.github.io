@@ -218,7 +218,7 @@ $(".send-btn").on("click touchstart", function () {
 });
 
 //Google Map
-var myCenter = new google.maps.LatLng(28.6069,77.214);
+/*var myCenter = new google.maps.LatLng(28.6069,77.214);
 function initialize() {
     var mapProp = {
         center:myCenter,
@@ -235,7 +235,7 @@ function initialize() {
     marker.setMap(map);
     marker.setAnimation(google.maps.Animation.BOUNCE);
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initialize);*/
 
 //Preloader
 $window.on('load', function(){               
